@@ -1,0 +1,106 @@
+
+
+body {
+    background-color: #FCFBF4;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.navbar {
+    background-color: #FCFBF4;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0591AF;
+    transform: scale(1.1);
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 75vh;
+}
+
+.carousel-caption {
+    background-color: rgba(252, 251, 244, 0.8);
+    padding: 1rem;
+    border-radius: 10px;
+    color: black;
+}
+
+.dropdown-item:hover{
+    color: #0591AF;
+}
+
+/* Base Styling for Footer Links */
+footer a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s, transform 0.3s ease;
+}
+
+/* Hover Effect for Links */
+footer a:hover {
+    color: #0591AF;  /* Change color on hover */
+    transform: translateY(-3px);  /* Slight lift effect */
+}
+
+/* Social Media Icon Hover Effect */
+footer .bi {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+/* Hover Effect for Social Media Icons */
+footer .bi:hover {
+    transform: scale(1.1);  /* Enlarge icons on hover */
+}
+
+
+
+/* Service Cards */
+.card {
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Service Titles */
+.card-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #0591AF;
+}
+
+/* Testimonials Section */
+.testimonial {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+blockquote {
+    font-size: 1.125rem;
+    font-weight: 300;
+    color: #333;
+}
+
+.blockquote-footer {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #0591AF;
+}

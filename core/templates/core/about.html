@@ -1,0 +1,26 @@
+{% extends "core/layout.html" %}
+{% load static %}
+{% block title %}About Us - TurkmenAli Furniture{% endblock %}
+{% block body %}
+<!-- About Us Section -->
+<section class="container py-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h2 class="text-uppercase mb-4">Our Story</h2>
+            <p class="lead">TurkmenAli Furniture was founded with a single goal in mind: to bring quality, design, and innovation to your living spaces. Our company prides itself on offering a wide range of modern furniture that transforms any room into a masterpiece.</p>
+            <p>We work with expert designers and craftsmen to create stunning furniture pieces that are not only functional but also elegant and stylish. Every product in our collection is made with precision and care, ensuring the highest level of craftsmanship.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="{% static "core/images/about.webp"%}" alt="Furniture" class="img-fluid rounded shadow-lg w-75 m-0">
+        </div>
+    </div>
+</section>
+
+<!-- Mission Section -->
+<section class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Our Mission</h2>
+        <p class="text-center lead">To bring innovative, high-quality furniture to homes everywhere. We believe in crafting designs that cater to the evolving needs of modern living while ensuring comfort and durability.</p>
+    </div>
+</section>
+{% endblock %}
