@@ -1,0 +1,55 @@
+{% extends "core/layout.html" %}
+{% load static %}
+{% block title %}Contact Us {% endblock %}
+{% block body %}
+
+<!-- Contact Form and Info -->
+<div class="container my-5">
+    <div class="row g-4">
+        <!-- Contact Form -->
+        <div class="col-md-6">
+            <div class="form-section">
+                <h4>Send Us a Message</h4>
+                <form action="{% url "core:contacts" %}" method='post'>
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required name="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required name="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Type your message here" required name="message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="col-md-6">
+            <div class="text-center">
+                <h4>Contact Information</h4>
+                <p>We’re here to help! Feel free to contact us using the information below.</p>
+                <div class="contact-info my-4">
+                    <i class="bi bi-geo-alt"></i>
+                    <p><strong>Address:</strong> 123 Furniture Lane, Cityville, TX</p>
+                </div>
+                <div class="contact-info my-4">
+                    <i class="bi bi-telephone"></i>
+                    <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+                </div>
+                <div class="contact-info my-4">
+                    <i class="bi bi-envelope-at"></i>
+                    <p><strong>Email:</strong> support@turkmenalifurniture.com</p>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

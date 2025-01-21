@@ -67,4 +67,51 @@
         </div>
     </div>
 </section>
+
+<!-- Video Section -->
+<section class="container py-5">
+    <h2 class="text-primary text-center mb-4">Our Work in Action</h2>
+    <p class="lead text-center">Explore some of the amazing work we’ve done through these videos showcasing our craftsmanship and attention to detail.</p>
+    <div class="row gy-4">
+        <!-- Video 1 -->
+        <div class="col-md-4">
+            <div class="video-container">
+                <video class="video-player" controls preload="metadata" width="100%">
+                    <source src="{% static 'core/videos/video1.mp4' %}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        <!-- Video 2 -->
+        <div class="col-md-4">
+            <div class="video-container">
+                <video class="video-player" controls preload="metadata" width="100%">
+                    <source src="{% static 'core/videos/video2.mp4' %}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        <!-- Video 3 -->
+        <div class="col-md-4">
+            <div class="video-container">
+                <video class="video-player" controls preload="metadata" width="100%">
+                    <source src="{% static 'core/videos/video3.mp4' %}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    // Stop other videos when one is played
+    document.addEventListener('play', function(e) {
+        const videos = document.querySelectorAll('.video-player');
+        videos.forEach(video => {
+            if (video !== e.target) {
+                video.pause();
+            }
+        });
+    }, true);
+</script>
 {% endblock %}

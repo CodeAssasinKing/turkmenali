@@ -1,0 +1,40 @@
+{% extends "core/layout.html" %}
+{% load static %}
+{% block title %}Messages{% endblock %}
+{% block body %}
+<div class="container my-5">
+    <h1 class="text-center mb-4" style="font-family: 'Libre Baskerville', serif;">Messages Received</h1>
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover">
+            <thead class="table-light">
+                <tr>
+                    <th>#</th>
+                    <th>Sender Name</th>
+                    <th>Email</th>
+                    <th>Message</th>
+                    <th>Date Received</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Example Rows -->
+                <tr>
+                    <td>1</td>
+                    <td>John Doe</td>
+                    <td>johndoe@example.com</td>
+                    <td>Hello, I’d like to inquire about your dining tables.</td>
+                    <td>2025-01-20</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jane Smith</td>
+                    <td>janesmith@example.com</td>
+                    <td>Do you offer custom furniture designs?</td>
+                    <td>2025-01-19</td>
+                </tr>
+                <!-- Add more rows dynamically using Django or JavaScript -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}

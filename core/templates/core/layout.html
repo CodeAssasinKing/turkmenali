@@ -29,19 +29,22 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{% url "core:services"%}">Services</a>
                 </li>
+                {% if request.user.is_staff%}
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url "core:messages"%}">Messages</a>
+                </li>
+                {% endif %}
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        More
+                        Language
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Portfolio</a></li>
-                        <li><a class="dropdown-item" href="#">Team</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Careers</a></li>
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        <li><a class="dropdown-item" href="#">Turkish</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="{% url "core:contacts"%}">Contact</a>
                 </li>
             </ul>
         </div>
@@ -101,10 +104,10 @@
             <div class="col-md-4">
                 <h5 class="text-uppercase mb-4">Quick Links</h5>
                 <ul class="list-unstyled">
-                    <li><a href="#" class="text-white">Home</a></li>
-                    <li><a href="#" class="text-white">Shop</a></li>
-                    <li><a href="#" class="text-white">About</a></li>
-                    <li><a href="#" class="text-white">Contact</a></li>
+                    <li><a href="{% url "core:index"%}" class="text-white">Home</a></li>
+                    <li><a href="{% url "core:about"%}" class="text-white">About</a></li>
+                    <li><a href="{% url "core:services"%}" class="text-white">Services</a></li>
+                    <li><a href="{% url "core:contacts"%}" class="text-white">Contact</a></li>
                 </ul>
             </div>
 
