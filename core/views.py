@@ -34,4 +34,8 @@ def contacts(request):
 
 
 def messages(request):
-    return render(request, "core/messages.html")
+    messages = FormMessage.objects.all()
+    context = {
+        "messages": messages
+    }
+    return render(request, "core/messages.html", context)

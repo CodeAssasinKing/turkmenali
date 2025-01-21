@@ -5,6 +5,7 @@
 <div class="container my-5">
     <h1 class="text-center mb-4" style="font-family: 'Libre Baskerville', serif;">Messages Received</h1>
     <div class="table-responsive">
+        {% if messages %}
         <table class="table table-bordered table-hover">
             <thead class="table-light">
                 <tr>
@@ -16,24 +17,20 @@
                 </tr>
             </thead>
             <tbody>
-                <!-- Example Rows -->
+                {% for message in messages %}
                 <tr>
-                    <td>1</td>
-                    <td>John Doe</td>
-                    <td>johndoe@example.com</td>
-                    <td>Hello, I’d like to inquire about your dining tables.</td>
-                    <td>2025-01-20</td>
+                    <td>{{ message.id }}</td>
+                    <td>{{message.name}} </td>
+                    <td>{{message.email}} </td>
+                    <td>{{message.message}} </td>
+                    <td>{{message.send_time}} </td>
                 </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Jane Smith</td>
-                    <td>janesmith@example.com</td>
-                    <td>Do you offer custom furniture designs?</td>
-                    <td>2025-01-19</td>
-                </tr>
-                <!-- Add more rows dynamically using Django or JavaScript -->
+               {% endfor %}
             </tbody>
         </table>
+        {% else %}
+        <center><h1>There is no messages</h1></center>
+        {% endif %}
     </div>
 </div>
 
