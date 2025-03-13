@@ -1,5 +1,6 @@
 {% extends "core/layout.html" %}
 {% load static %}
+{% load i18n %}
 {% block title %}TurkmenAli{% endblock %}
 {% block body %}
 <!-- Featured Furniture Section -->
@@ -11,7 +12,7 @@
                 <div class="card h-100">
                     <img src="{% static 'core/images/sofa.png' %}" class="card-img-top" alt="Elegant Sofa">
                     <div class="card-body">
-                        <h5 class="card-title">Elegant Sofa</h5>
+                        <h5 class="card-title">{% translate 'Elegant Sofa'%}</h5>
                         <p class="card-text">Experience ultimate comfort with our premium-quality sofa, designed for modern living spaces.</p>
                         <a href="#" class="btn btn-primary">Learn More</a>
                     </div>

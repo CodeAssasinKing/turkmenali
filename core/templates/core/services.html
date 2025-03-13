@@ -73,33 +73,33 @@
     <h2 class="text-primary text-center mb-4">Our Work in Action</h2>
     <p class="lead text-center">Explore some of the amazing work we’ve done through these videos showcasing our craftsmanship and attention to detail.</p>
     <div class="row gy-4">
+        {% for i in videos %}
         <!-- Video 1 -->
         <div class="col-md-4">
             <div class="video-container">
                 <video class="video-player" controls preload="metadata" width="100%">
-                    <source src="{% static 'core/videos/video1.mp4' %}" type="video/mp4">
+                    <source src="{{i.video.url}}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
         </div>
-        <!-- Video 2 -->
-        <div class="col-md-4">
-            <div class="video-container">
-                <video class="video-player" controls preload="metadata" width="100%">
-                    <source src="{% static 'core/videos/video2.mp4' %}" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="container py-5">
+    <div class="row">
+        <!-- Service 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm border-0 rounded">
+                <img src="{% static "core/images/services1.webp"%}" alt="Custom Design" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Custom Design</h5>
+                    <p class="card-text">Experience the art of personalizing your space with our custom furniture design services. Whether it’s a unique sofa or an elegant dining set, we bring your vision to life with precision and creativity.</p>
+                </div>
             </div>
         </div>
-        <!-- Video 3 -->
-        <div class="col-md-4">
-            <div class="video-container">
-                <video class="video-player" controls preload="metadata" width="100%">
-                    <source src="{% static 'core/videos/video3.mp4' %}" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-        </div>
+
     </div>
 </section>
 

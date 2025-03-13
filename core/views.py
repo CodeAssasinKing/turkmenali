@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
 from .models import FormMessage
+from customers.models import Videos, Furniture
 # Create your views here.
 def index(request):
     return render(request, "core/index.html")
@@ -12,7 +13,13 @@ def about(request):
 
 
 def services(request):
-    return render(request, "core/services.html")
+    videos = Videos.objects.all()
+    furnitures = Furniture.objects.all()
+    context = {
+        "videos":videos,
+        "furnitures":furnitures
+    }
+    return render(request, "core/services.html", context)
 
 
 def contacts(request):
