@@ -89,20 +89,32 @@
 
 <section class="container py-5">
     <div class="row">
-        <!-- Service 1 -->
+    {% for image in furnitures %}
         <div class="col-md-4 mb-4">
             <div class="card shadow-sm border-0 rounded">
-                <img src="{% static "core/images/services1.webp"%}" alt="Custom Design" class="card-img-top">
+                <img src="{{ image.furniture_picture.url }}" alt="Custom Design" class="card-img-top img-popup" data-bs-toggle="modal" data-bs-target="#imageModal">
                 <div class="card-body">
-                    <h5 class="card-title text-primary">Custom Design</h5>
-                    <p class="card-text">Experience the art of personalizing your space with our custom furniture design services. Whether it’s a unique sofa or an elegant dining set, we bring your vision to life with precision and creativity.</p>
+                    <h5 class="card-title text-primary">{{image.furniture_name}} </h5>
+                    <p class="card-text">{{ image.furniture_description }}</p>
                 </div>
             </div>
         </div>
+    {% endfor %}
+
+        
+        
 
     </div>
 </section>
 
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content modal-custom">
+            <button type="button" class="btn-close modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <img id="modal-img" src="" alt="Selected Image" class="modal-img">
+        </div>
+    </div>
+</div>
 <script>
     // Stop other videos when one is played
     document.addEventListener('play', function(e) {
@@ -113,5 +125,17 @@
             }
         });
     }, true);
+</script>
+
+<!-- JavaScript (Dynamically Change Modal Image) -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const modalImg = document.getElementById("modal-img");
+        document.querySelectorAll(".img-popup").forEach(img => {
+            img.addEventListener("click", function () {
+                modalImg.src = this.src;
+            });
+        });
+    });
 </script>
 {% endblock %}

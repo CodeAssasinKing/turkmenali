@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Furniture(models.Model):
-    furniture_name = models.CharField(max_length=20)
+    furniture_name = models.CharField(max_length=255)
     furniture_description = models.CharField(max_length=255)
     furniture_picture = models.ImageField(upload_to="images/")
 
