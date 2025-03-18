@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-23 18:53+0500\n"
+"POT-Creation-Date: 2025-03-13 09:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,66 +18,406 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: core/templates/core/index.html:15
+#: core/templates/core/about.html:4
+msgid "About Us - TurkmenAli Furniture"
+msgstr ""
+
+#: core/templates/core/about.html:9
+msgid "Our Story"
+msgstr ""
+
+#: core/templates/core/about.html:10
+msgid ""
+"TurkmenAli Furniture was founded with a single goal in mind: to bring "
+"quality, design, and innovation to your living spaces. Our company prides "
+"itself on offering a wide range of modern furniture that transforms any room "
+"into a masterpiece."
+msgstr ""
+
+#: core/templates/core/about.html:11
+msgid ""
+"We work with expert designers and craftsmen to create stunning furniture "
+"pieces that are not only functional but also elegant and stylish. Every "
+"product in our collection is made with precision and care, ensuring the "
+"highest level of craftsmanship."
+msgstr ""
+
+#: core/templates/core/about.html:14
+msgid "Furniture"
+msgstr ""
+
+#: core/templates/core/about.html:21
+msgid "Our Mission"
+msgstr ""
+
+#: core/templates/core/about.html:22
+msgid ""
+"To bring innovative, high-quality furniture to homes everywhere. We believe "
+"in crafting designs that cater to the evolving needs of modern living while "
+"ensuring comfort and durability."
+msgstr ""
+
+#: core/templates/core/contacts.html:4 core/templates/core/layout.html:110
+msgid "Contact Us"
+msgstr ""
+
+#: core/templates/core/contacts.html:15
+msgid "Send Us a Message"
+msgstr ""
+
+#: core/templates/core/contacts.html:19
+msgid "Full Name"
+msgstr ""
+
+#: core/templates/core/contacts.html:20
+msgid "Enter your name"
+msgstr ""
+
+#: core/templates/core/contacts.html:23
+msgid "Email Address"
+msgstr ""
+
+#: core/templates/core/contacts.html:24
+msgid "Enter your email"
+msgstr ""
+
+#: core/templates/core/contacts.html:27 core/templates/core/messages.html:16
+msgid "Message"
+msgstr ""
+
+#: core/templates/core/contacts.html:28
+msgid "Type your message here"
+msgstr ""
+
+#: core/templates/core/contacts.html:30
+msgid "Send Message"
+msgstr ""
+
+#: core/templates/core/contacts.html:39
+msgid "Contact Information"
+msgstr ""
+
+#: core/templates/core/contacts.html:40
+msgid ""
+"We’re here to help! Feel free to contact us using the information below."
+msgstr ""
+
+#: core/templates/core/contacts.html:49
+msgid "Phone:"
+msgstr ""
+
+#: core/templates/core/error.html:65
+msgid "Error!"
+msgstr ""
+
+#: core/templates/core/error.html:66
+msgid "Something went wrong. Please try again later."
+msgstr ""
+
+#: core/templates/core/error.html:67
+msgid "Go Back"
+msgstr ""
+
+#: core/templates/core/index.html:4
+msgid "TurkmenAli"
+msgstr ""
+
+#: core/templates/core/index.html:8
+msgid "Featured Furniture"
+msgstr ""
+
+#: core/templates/core/index.html:12 core/templates/core/index.html:14
 msgid "Elegant Sofa"
 msgstr ""
 
-#: core/templates/core/layout.html:18
+#: core/templates/core/index.html:15
+msgid ""
+"Experience ultimate comfort with our premium-quality sofa, designed for "
+"modern living spaces."
+msgstr ""
+
+#: core/templates/core/index.html:16 core/templates/core/index.html:26
+#: core/templates/core/index.html:36
+msgid "Learn More"
+msgstr ""
+
+#: core/templates/core/index.html:22 core/templates/core/index.html:24
+msgid "Classic Dining Table"
+msgstr ""
+
+#: core/templates/core/index.html:25
+msgid ""
+"Add elegance to your dining room with our beautifully crafted wooden dining "
+"table."
+msgstr ""
+
+#: core/templates/core/index.html:32 core/templates/core/index.html:34
+msgid "Luxury Chair"
+msgstr ""
+
+#: core/templates/core/index.html:35
+msgid "Relax in style with our ergonomic and visually stunning luxury chairs."
+msgstr ""
+
+#: core/templates/core/index.html:46
+msgid "Why Choose TurkmenAli Furniture?"
+msgstr ""
+
+#: core/templates/core/index.html:49
+msgid "Quality"
+msgstr ""
+
+#: core/templates/core/index.html:50
+msgid "Premium Quality"
+msgstr ""
+
+#: core/templates/core/index.html:51
+msgid ""
+"All our furniture is crafted with the finest materials, ensuring durability "
+"and comfort."
+msgstr ""
+
+#: core/templates/core/index.html:54
+msgid "Design"
+msgstr ""
+
+#: core/templates/core/index.html:55
+msgid "Elegant Design"
+msgstr ""
+
+#: core/templates/core/index.html:56
+msgid "Our designs are timeless, blending seamlessly into any interior décor."
+msgstr ""
+
+#: core/templates/core/index.html:59
+msgid "Support"
+msgstr ""
+
+#: core/templates/core/index.html:60
+msgid "Customer Satisfaction"
+msgstr ""
+
+#: core/templates/core/index.html:61
+msgid ""
+"We prioritize our customers, offering exceptional support and satisfaction "
+"guarantees."
+msgstr ""
+
+#: core/templates/core/layout.html:17
 msgid "TurkmenAli Furniture"
 msgstr ""
 
-#: core/templates/core/layout.html:25
+#: core/templates/core/layout.html:24 core/templates/core/layout.html:102
 msgid "Home"
 msgstr ""
 
-#: core/templates/core/layout.html:28
+#: core/templates/core/layout.html:27 core/templates/core/layout.html:103
 msgid "About"
 msgstr ""
 
-#: core/templates/core/layout.html:31
+#: core/templates/core/layout.html:30 core/templates/core/layout.html:104
 msgid "Services"
 msgstr ""
 
-#: core/templates/core/layout.html:35
+#: core/templates/core/layout.html:34 core/templates/core/messages.html:4
 msgid "Messages"
 msgstr ""
 
-#: core/templates/core/layout.html:40
+#: core/templates/core/layout.html:39
 msgid "Language"
 msgstr ""
 
-#: core/templates/core/layout.html:48
+#: core/templates/core/layout.html:47 core/templates/core/layout.html:105
 msgid "Contact"
 msgstr ""
 
-#: core/templates/core/layout.html:61
+#: core/templates/core/layout.html:57
+msgid "First Slide"
+msgstr ""
+
+#: core/templates/core/layout.html:59
 msgid "Welcome to TurkmenAli"
 msgstr ""
 
-#: core/templates/core/layout.html:62
+#: core/templates/core/layout.html:60
 msgid "Discover amazing features and content."
 msgstr ""
 
-#: core/templates/core/layout.html:68
+#: core/templates/core/layout.html:64
+msgid "Second Slide"
+msgstr ""
+
+#: core/templates/core/layout.html:66
 msgid "Join Our Community"
 msgstr ""
 
-#: core/templates/core/layout.html:69
+#: core/templates/core/layout.html:67
 msgid "Connect with like-minded individuals."
 msgstr ""
 
-#: core/templates/core/layout.html:75
+#: core/templates/core/layout.html:71
+msgid "Third Slide"
+msgstr ""
+
+#: core/templates/core/layout.html:73
 msgid "Start Your Journey"
 msgstr ""
 
-#: core/templates/core/layout.html:76
+#: core/templates/core/layout.html:74
 msgid "Explore endless possibilities."
 msgstr ""
 
-#: core/templates/core/layout.html:82
+#: core/templates/core/layout.html:80
 msgid "Previous"
 msgstr ""
 
-#: core/templates/core/layout.html:86
+#: core/templates/core/layout.html:84
 msgid "Next"
+msgstr ""
+
+#: core/templates/core/layout.html:95
+msgid "About Us"
+msgstr ""
+
+#: core/templates/core/layout.html:96
+msgid ""
+"TurkmenAli Furniture offers premium furniture designed to enhance the beauty "
+"of your home. Our collection is crafted with quality materials and "
+"contemporary styles to suit every taste."
+msgstr ""
+
+#: core/templates/core/layout.html:100
+msgid "Quick Links"
+msgstr ""
+
+#: core/templates/core/layout.html:121
+msgid "Follow Us"
+msgstr ""
+
+#: core/templates/core/messages.html:7
+msgid "Messages Received"
+msgstr ""
+
+#: core/templates/core/messages.html:14
+msgid "Sender Name"
+msgstr ""
+
+#: core/templates/core/messages.html:15
+msgid "Email"
+msgstr ""
+
+#: core/templates/core/messages.html:17
+msgid "Date Received"
+msgstr ""
+
+#: core/templates/core/messages.html:33
+msgid "There is no messages"
+msgstr ""
+
+#: core/templates/core/services.html:4
+msgid "TurkmenAli Services"
+msgstr ""
+
+#: core/templates/core/services.html:10 core/templates/core/services.html:12
+#: core/templates/core/services.html:89
+msgid "Custom Design"
+msgstr ""
+
+#: core/templates/core/services.html:13
+msgid ""
+"Experience the art of personalizing your space with our custom furniture "
+"design services. Whether it’s a unique sofa or an elegant dining set, we "
+"bring your vision to life with precision and creativity."
+msgstr ""
+
+#: core/templates/core/services.html:20 core/templates/core/services.html:22
+msgid "Quality Materials"
+msgstr ""
+
+#: core/templates/core/services.html:23
+msgid ""
+"We use only the finest materials to craft durable, beautiful furniture that "
+"lasts for generations. From rich hardwoods to premium fabrics, every piece "
+"is built to stand the test of time."
+msgstr ""
+
+#: core/templates/core/services.html:30 core/templates/core/services.html:32
+msgid "Delivery & Setup"
+msgstr ""
+
+#: core/templates/core/services.html:33
+msgid ""
+"Our job doesn’t end with the purchase. We offer reliable delivery and setup "
+"services, ensuring that your furniture arrives safely and is professionally "
+"installed in your home."
+msgstr ""
+
+#: core/templates/core/services.html:42
+msgid "What Our Customers Say"
+msgstr ""
+
+#: core/templates/core/services.html:43
+msgid ""
+"Our satisfied customers speak for us. Here’s what they have to say about "
+"their experience with TurkmenAli Furniture:"
+msgstr ""
+
+#: core/templates/core/services.html:47
+msgid ""
+"“The custom design service was amazing! They truly understood my needs and "
+"created a piece that perfectly fits my living room.”"
+msgstr ""
+
+#: core/templates/core/services.html:48
+msgid "Sarah L., Homeowner"
+msgstr ""
+
+#: core/templates/core/services.html:53
+msgid ""
+"“The quality of the furniture is second to none. I can tell that only the "
+"best materials were used in crafting my pieces.”"
+msgstr ""
+
+#: core/templates/core/services.html:54
+msgid "John D., Business Owner"
+msgstr ""
+
+#: core/templates/core/services.html:59
+msgid ""
+"“I was impressed with the professional delivery and setup. The team took "
+"great care in placing the furniture just as I envisioned.”"
+msgstr ""
+
+#: core/templates/core/services.html:60
+msgid "Maya P., Interior Designer"
+msgstr ""
+
+#: core/templates/core/services.html:68
+msgid "Our Work in Action"
+msgstr ""
+
+#: core/templates/core/services.html:69
+msgid ""
+"Explore some of the amazing work we’ve done through these videos showcasing "
+"our craftsmanship and attention to detail."
+msgstr ""
+
+#: core/templates/core/services.html:76
+msgid "Your browser does not support the video tag."
+msgstr ""
+
+#: core/templates/core/services.html:104
+msgid "Selected Image"
+msgstr ""
+
+#: core/templates/core/success.html:66
+msgid "Success!"
+msgstr ""
+
+#: core/templates/core/success.html:67
+msgid "Your operation was completed successfully."
+msgstr ""
+
+#: core/templates/core/success.html:68
+msgid "Go Back to Home"
 msgstr ""

@@ -1,3 +1,4 @@
+{% load i18n %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -62,8 +63,8 @@
 </head>
 <body>
     <div class="success-icon">✔</div>
-    <h1>Success!</h1>
-    <p>Your operation was completed successfully.</p>
-    <a href="{% url "core:index"%}" class="btn">Go Back to Home</a>
+    <h1>{% translate "Success!" %}</h1>
+    <p>{% translate "Your operation was completed successfully." %}</p>
+    <a href="{% url "core:index" %}" class="btn">{% translate "Go Back to Home" %}</a>
 </body>
 </html>

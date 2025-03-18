@@ -1,19 +1,20 @@
 {% extends "core/layout.html" %}
 {% load static %}
-{% block title %}Messages{% endblock %}
+{% load i18n %}
+{% block title %}{% translate "Messages" %}{% endblock %}
 {% block body %}
 <div class="container my-5">
-    <h1 class="text-center mb-4" style="font-family: 'Libre Baskerville', serif;">Messages Received</h1>
+    <h1 class="text-center mb-4" style="font-family: 'Libre Baskerville', serif;">{% translate "Messages Received" %}</h1>
     <div class="table-responsive">
         {% if messages %}
         <table class="table table-bordered table-hover">
             <thead class="table-light">
                 <tr>
                     <th>#</th>
-                    <th>Sender Name</th>
-                    <th>Email</th>
-                    <th>Message</th>
-                    <th>Date Received</th>
+                    <th>{% translate "Sender Name" %}</th>
+                    <th>{% translate "Email" %}</th>
+                    <th>{% translate "Message" %}</th>
+                    <th>{% translate "Date Received" %}</th>
                 </tr>
             </thead>
             <tbody>
@@ -29,7 +30,7 @@
             </tbody>
         </table>
         {% else %}
-        <center><h1>There is no messages</h1></center>
+        <center><h1>{% translate "There is no messages" %}</h1></center>
         {% endif %}
     </div>
 </div>

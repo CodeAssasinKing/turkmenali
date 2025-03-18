@@ -1,85 +1,79 @@
 {% extends "core/layout.html" %}
 {% load static %}
-{% block title %}TurkmenAli Services {% endblock %}
+{% load i18n %}
+{% block title %}{% translate "TurkmenAli Services" %} {% endblock %}
 {% block body %}
- <!-- Services Section -->
  <section class="container py-5">
     <div class="row">
-        <!-- Service 1 -->
         <div class="col-md-4 mb-4">
             <div class="card shadow-sm border-0 rounded">
-                <img src="{% static "core/images/services1.webp"%}" alt="Custom Design" class="card-img-top">
+                <img src="{% static "core/images/services1.webp"%}" alt="{% translate 'Custom Design' %}" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title text-primary">Custom Design</h5>
-                    <p class="card-text">Experience the art of personalizing your space with our custom furniture design services. Whether it’s a unique sofa or an elegant dining set, we bring your vision to life with precision and creativity.</p>
+                    <h5 class="card-title text-primary">{% translate "Custom Design" %}</h5>
+                    <p class="card-text">{% translate "Experience the art of personalizing your space with our custom furniture design services. Whether it’s a unique sofa or an elegant dining set, we bring your vision to life with precision and creativity." %}</p>
                 </div>
             </div>
         </div>
 
-        <!-- Service 2 -->
         <div class="col-md-4 mb-4">
             <div class="card shadow-sm border-0 rounded">
-                <img src="{% static "core/images/services2.webp"%}" alt="Quality Materials" class="card-img-top">
+                <img src="{% static "core/images/services2.webp"%}" alt="{% translate 'Quality Materials' %}" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title text-primary">Quality Materials</h5>
-                    <p class="card-text">We use only the finest materials to craft durable, beautiful furniture that lasts for generations. From rich hardwoods to premium fabrics, every piece is built to stand the test of time.</p>
+                    <h5 class="card-title text-primary">{% translate "Quality Materials" %}</h5>
+                    <p class="card-text">{% translate "We use only the finest materials to craft durable, beautiful furniture that lasts for generations. From rich hardwoods to premium fabrics, every piece is built to stand the test of time." %}</p>
                 </div>
             </div>
         </div>
 
-        <!-- Service 3 -->
         <div class="col-md-4 mb-4">
             <div class="card shadow-sm border-0 rounded">
-                <img src="{% static "core/images/services3.webp"%}" alt="Delivery & Setup" class="card-img-top">
+                <img src="{% static "core/images/services3.webp"%}" alt="{% translate 'Delivery & Setup' %}" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title text-primary">Delivery & Setup</h5>
-                    <p class="card-text">Our job doesn’t end with the purchase. We offer reliable delivery and setup services, ensuring that your furniture arrives safely and is professionally installed in your home.</p>
+                    <h5 class="card-title text-primary">{% translate "Delivery & Setup" %}</h5>
+                    <p class="card-text">{% translate "Our job doesn’t end with the purchase. We offer reliable delivery and setup services, ensuring that your furniture arrives safely and is professionally installed in your home." %}</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Testimonials Section -->
 <section class="bg-light py-5">
     <div class="container text-center">
-        <h2 class="text-primary mb-4">What Our Customers Say</h2>
-        <p class="lead">Our satisfied customers speak for us. Here’s what they have to say about their experience with TurkmenAli Furniture:</p>
+        <h2 class="text-primary mb-4">{% translate "What Our Customers Say" %}</h2>
+        <p class="lead">{% translate "Our satisfied customers speak for us. Here’s what they have to say about their experience with TurkmenAli Furniture:" %}</p>
         <div class="row">
             <div class="col-md-4 mb-4">
                 <div class="testimonial shadow-sm p-4">
-                    <p class="blockquote">“The custom design service was amazing! They truly understood my needs and created a piece that perfectly fits my living room.”</p>
-                    <footer class="blockquote-footer">Sarah L., Homeowner</footer>
+                    <p class="blockquote">{% translate "“The custom design service was amazing! They truly understood my needs and created a piece that perfectly fits my living room.”" %}</p>
+                    <footer class="blockquote-footer">{% translate "Sarah L., Homeowner" %}</footer>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="testimonial shadow-sm p-4">
-                    <p class="blockquote">“The quality of the furniture is second to none. I can tell that only the best materials were used in crafting my pieces.”</p>
-                    <footer class="blockquote-footer">John D., Business Owner</footer>
+                    <p class="blockquote">{% translate "“The quality of the furniture is second to none. I can tell that only the best materials were used in crafting my pieces.”" %}</p>
+                    <footer class="blockquote-footer">{% translate "John D., Business Owner" %}</footer>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="testimonial shadow-sm p-4">
-                    <p class="blockquote">“I was impressed with the professional delivery and setup. The team took great care in placing the furniture just as I envisioned.”</p>
-                    <footer class="blockquote-footer">Maya P., Interior Designer</footer>
+                    <p class="blockquote">{% translate "“I was impressed with the professional delivery and setup. The team took great care in placing the furniture just as I envisioned.”" %}</p>
+                    <footer class="blockquote-footer">{% translate "Maya P., Interior Designer" %}</footer>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Video Section -->
 <section class="container py-5">
-    <h2 class="text-primary text-center mb-4">Our Work in Action</h2>
-    <p class="lead text-center">Explore some of the amazing work we’ve done through these videos showcasing our craftsmanship and attention to detail.</p>
+    <h2 class="text-primary text-center mb-4">{% translate "Our Work in Action" %}</h2>
+    <p class="lead text-center">{% translate "Explore some of the amazing work we’ve done through these videos showcasing our craftsmanship and attention to detail." %}</p>
     <div class="row gy-4">
         {% for i in videos %}
-        <!-- Video 1 -->
         <div class="col-md-4">
             <div class="video-container">
                 <video class="video-player" controls preload="metadata" width="100%">
                     <source src="{{i.video.url}}" type="video/mp4">
-                    Your browser does not support the video tag.
+                    {% translate "Your browser does not support the video tag." %}
                 </video>
             </div>
         </div>
@@ -92,7 +86,7 @@
     {% for image in furnitures %}
         <div class="col-md-4 mb-4">
             <div class="card shadow-sm border-0 rounded">
-                <img src="{{ image.furniture_picture.url }}" alt="Custom Design" class="card-img-top img-popup" data-bs-toggle="modal" data-bs-target="#imageModal">
+                <img src="{{ image.furniture_picture.url }}" alt="{% translate 'Custom Design' %}" class="card-img-top img-popup" data-bs-toggle="modal" data-bs-target="#imageModal">
                 <div class="card-body">
                     <h5 class="card-title text-primary">{{image.furniture_name}} </h5>
                     <p class="card-text">{{ image.furniture_description }}</p>
@@ -100,10 +94,6 @@
             </div>
         </div>
     {% endfor %}
-
-        
-        
-
     </div>
 </section>
 
@@ -111,7 +101,7 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content modal-custom">
             <button type="button" class="btn-close modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            <img id="modal-img" src="" alt="Selected Image" class="modal-img">
+            <img id="modal-img" src="" alt="{% translate 'Selected Image' %}" class="modal-img">
         </div>
     </div>
 </div>
@@ -127,7 +117,6 @@
     }, true);
 </script>
 
-<!-- JavaScript (Dynamically Change Modal Image) -->
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         const modalImg = document.getElementById("modal-img");

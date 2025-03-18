@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-23 18:53+0500\n"
+"POT-Creation-Date: 2025-03-13 09:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,66 +18,432 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: core/templates/core/index.html:15
+#: core/templates/core/about.html:4
+msgid "About Us - TurkmenAli Furniture"
+msgstr "Hakkımızda - TurkmenAli Mobilya"
+
+#: core/templates/core/about.html:9
+msgid "Our Story"
+msgstr "Hikayemiz"
+
+#: core/templates/core/about.html:10
+msgid ""
+"TurkmenAli Furniture was founded with a single goal in mind: to bring "
+"quality, design, and innovation to your living spaces. Our company prides "
+"itself on offering a wide range of modern furniture that transforms any room "
+"into a masterpiece."
+msgstr ""
+"TurkmenAli Mobilya, yaşam alanlarınıza kalite, tasarım ve yenilik getirmek "
+"amacıyla kuruldu. Şirketimiz, her odayı bir başyapıta dönüştüren geniş bir "
+"modern mobilya yelpazesi sunmaktan gurur duymaktadır."
+
+#: core/templates/core/about.html:11
+msgid ""
+"We work with expert designers and craftsmen to create stunning furniture "
+"pieces that are not only functional but also elegant and stylish. Every "
+"product in our collection is made with precision and care, ensuring the "
+"highest level of craftsmanship."
+msgstr ""
+"Uzman tasarımcılar ve ustalarla çalışarak yalnızca işlevsel değil, aynı "
+"zamanda zarif ve şık mobilyalar üretiyoruz. Koleksiyonumuzdaki her ürün, en "
+"yüksek işçilik kalitesini sağlamak için titizlikle ve özenle üretilmektedir."
+
+#: core/templates/core/about.html:14
+msgid "Furniture"
+msgstr "Mobilya"
+
+#: core/templates/core/about.html:21
+msgid "Our Mission"
+msgstr "Misyonumuz"
+
+#: core/templates/core/about.html:22
+msgid ""
+"To bring innovative, high-quality furniture to homes everywhere. We believe "
+"in crafting designs that cater to the evolving needs of modern living while "
+"ensuring comfort and durability."
+msgstr ""
+"Her eve yenilikçi, yüksek kaliteli mobilyalar getirmek. Modern yaşamın "
+"değişen ihtiyaçlarını karşılayan, konfor ve dayanıklılığı sağlayan "
+"tasarımlar üretmeye inanıyoruz."
+
+#: core/templates/core/contacts.html:4 core/templates/core/layout.html:110
+msgid "Contact Us"
+msgstr "Bize Ulaşın"
+
+#: core/templates/core/contacts.html:15
+msgid "Send Us a Message"
+msgstr "Bize Mesaj Gönderin"
+
+#: core/templates/core/contacts.html:19
+msgid "Full Name"
+msgstr "Ad Soyad"
+
+#: core/templates/core/contacts.html:20
+msgid "Enter your name"
+msgstr "Adınızı girin"
+
+#: core/templates/core/contacts.html:23
+msgid "Email Address"
+msgstr "E-posta Adresi"
+
+#: core/templates/core/contacts.html:24
+msgid "Enter your email"
+msgstr "E-posta adresinizi girin"
+
+#: core/templates/core/contacts.html:27 core/templates/core/messages.html:16
+msgid "Message"
+msgstr "Mesaj"
+
+#: core/templates/core/contacts.html:28
+msgid "Type your message here"
+msgstr "Mesajınızı buraya yazın"
+
+#: core/templates/core/contacts.html:30
+msgid "Send Message"
+msgstr "Mesaj Gönder"
+
+#: core/templates/core/contacts.html:39
+msgid "Contact Information"
+msgstr "İletişim Bilgileri"
+
+#: core/templates/core/contacts.html:40
+msgid ""
+"We’re here to help! Feel free to contact us using the information below."
+msgstr ""
+"Size yardımcı olmaktan mutluluk duyarız! Aşağıdaki bilgileri kullanarak "
+"bize ulaşabilirsiniz."
+
+#: core/templates/core/contacts.html:49
+msgid "Phone:"
+msgstr "Telefon:"
+
+#: core/templates/core/error.html:65
+msgid "Error!"
+msgstr "Hata!"
+
+#: core/templates/core/error.html:66
+msgid "Something went wrong. Please try again later."
+msgstr "Bir şeyler ters gitti. Lütfen daha sonra tekrar deneyin."
+
+#: core/templates/core/error.html:67
+msgid "Go Back"
+msgstr "Geri Dön"
+
+#: core/templates/core/index.html:4
+msgid "TurkmenAli"
+msgstr "TurkmenAli"
+
+#: core/templates/core/index.html:8
+msgid "Featured Furniture"
+msgstr "Öne Çıkan Mobilyalar"
+
+#: core/templates/core/index.html:12 core/templates/core/index.html:14
 msgid "Elegant Sofa"
 msgstr "Zarif Kanepe"
 
-#: core/templates/core/layout.html:18
+#: core/templates/core/index.html:15
+msgid ""
+"Experience ultimate comfort with our premium-quality sofa, designed for "
+"modern living spaces."
+msgstr ""
+"Modern yaşam alanları için tasarlanmış, birinci sınıf kalitedeki kanepemizle "
+"üst düzey konforu yaşayın."
+
+#: core/templates/core/index.html:16 core/templates/core/index.html:26
+#: core/templates/core/index.html:36
+msgid "Learn More"
+msgstr "Daha Fazla Bilgi Edinin"
+
+#: core/templates/core/index.html:22 core/templates/core/index.html:24
+msgid "Classic Dining Table"
+msgstr "Klasik Yemek Masası"
+
+#: core/templates/core/index.html:25
+msgid ""
+"Add elegance to your dining room with our beautifully crafted wooden dining "
+"table."
+msgstr ""
+"Özenle tasarlanmış ahşap yemek masamız ile yemek odanıza zarafet katın."
+
+#: core/templates/core/index.html:32 core/templates/core/index.html:34
+msgid "Luxury Chair"
+msgstr "Lüks Sandalye"
+
+#: core/templates/core/index.html:35
+msgid "Relax in style with our ergonomic and visually stunning luxury chairs."
+msgstr "Ergonomik ve görsel olarak etkileyici lüks sandalyelerimizle şık bir şekilde rahatlayın."
+
+#: core/templates/core/index.html:46
+msgid "Why Choose TurkmenAli Furniture?"
+msgstr "Neden TurkmenAli Mobilya?"
+
+#: core/templates/core/index.html:49
+msgid "Quality"
+msgstr "Kalite"
+
+#: core/templates/core/index.html:50
+msgid "Premium Quality"
+msgstr "Birinci Sınıf Kalite"
+
+#: core/templates/core/index.html:51
+msgid "All our furniture is crafted with the finest materials, ensuring durability and comfort."
+msgstr "Tüm mobilyalarımız en kaliteli malzemelerden üretilmiştir ve dayanıklılık ile konfor sağlar."
+
+#: core/templates/core/index.html:54
+msgid "Design"
+msgstr "Tasarım"
+
+#: core/templates/core/index.html:55
+msgid "Elegant Design"
+msgstr "Zarif Tasarım"
+
+#: core/templates/core/index.html:56
+msgid "Our designs are timeless, blending seamlessly into any interior décor."
+msgstr "Tasarımımız zamansızdır ve her iç mekana mükemmel uyum sağlar."
+
+#: core/templates/core/index.html:59
+msgid "Support"
+msgstr "Destek"
+
+#: core/templates/core/index.html:60
+msgid "Customer Satisfaction"
+msgstr "Müşteri Memnuniyeti"
+
+#: core/templates/core/index.html:61
+msgid "We prioritize our customers, offering exceptional support and satisfaction guarantees."
+msgstr "Müşterilerimizi ön planda tutuyor, olağanüstü destek ve memnuniyet garantisi sunuyoruz."
+
+#: core/templates/core/layout.html:17
 msgid "TurkmenAli Furniture"
 msgstr "TurkmenAli Mobilya"
 
-#: core/templates/core/layout.html:25
+#: core/templates/core/layout.html:24 core/templates/core/layout.html:102
 msgid "Home"
-msgstr ""
+msgstr "Ana Sayfa"
 
-#: core/templates/core/layout.html:28
+#: core/templates/core/layout.html:27 core/templates/core/layout.html:103
 msgid "About"
-msgstr ""
+msgstr "Hakkımızda"
 
-#: core/templates/core/layout.html:31
+#: core/templates/core/layout.html:30 core/templates/core/layout.html:104
 msgid "Services"
-msgstr ""
+msgstr "Hizmetler"
 
-#: core/templates/core/layout.html:35
+#: core/templates/core/layout.html:34 core/templates/core/messages.html:4
 msgid "Messages"
-msgstr ""
+msgstr "Mesajlar"
 
-#: core/templates/core/layout.html:40
+#: core/templates/core/layout.html:39
 msgid "Language"
-msgstr ""
+msgstr "Dil"
 
-#: core/templates/core/layout.html:48
+#: core/templates/core/layout.html:47 core/templates/core/layout.html:105
 msgid "Contact"
-msgstr ""
+msgstr "İletişim"
 
-#: core/templates/core/layout.html:61
+#: core/templates/core/layout.html:57
+msgid "First Slide"
+msgstr "Birinci Slayt"
+
+#: core/templates/core/layout.html:59
 msgid "Welcome to TurkmenAli"
-msgstr ""
+msgstr "TurkmenAli'ye Hoş Geldiniz"
 
-#: core/templates/core/layout.html:62
+#: core/templates/core/layout.html:60
 msgid "Discover amazing features and content."
-msgstr ""
+msgstr "Harika özellikleri ve içerikleri keşfedin."
 
-#: core/templates/core/layout.html:68
+#: core/templates/core/layout.html:64
+msgid "Second Slide"
+msgstr "İkinci Slayt"
+
+#: core/templates/core/layout.html:66
 msgid "Join Our Community"
-msgstr ""
+msgstr "Topluluğumuza Katılın"
 
-#: core/templates/core/layout.html:69
+#: core/templates/core/layout.html:67
 msgid "Connect with like-minded individuals."
-msgstr ""
+msgstr "Benzer düşünen insanlarla bağlantı kurun."
 
-#: core/templates/core/layout.html:75
+#: core/templates/core/layout.html:71
+msgid "Third Slide"
+msgstr "Üçüncü Slayt"
+
+
+#: core/templates/core/layout.html:73
 msgid "Start Your Journey"
-msgstr ""
+msgstr "Yolculuğunuza Başlayın"
 
-#: core/templates/core/layout.html:76
+#: core/templates/core/layout.html:74
 msgid "Explore endless possibilities."
-msgstr ""
+msgstr "Sonsuz olasılıkları keşfedin."
 
-#: core/templates/core/layout.html:82
+#: core/templates/core/layout.html:80
 msgid "Previous"
-msgstr ""
+msgstr "Önceki"
 
-#: core/templates/core/layout.html:86
+#: core/templates/core/layout.html:84
 msgid "Next"
+msgstr "Sonraki"
+
+#: core/templates/core/layout.html:95
+msgid "About Us"
+msgstr "Hakkımızda"
+
+#: core/templates/core/layout.html:96
+msgid ""
+"TurkmenAli Furniture offers premium furniture designed to enhance the beauty "
+"of your home. Our collection is crafted with quality materials and "
+"contemporary styles to suit every taste."
 msgstr ""
+"TurkmenAli Mobilya, evinizin güzelliğini artırmak için tasarlanmış birinci sınıf mobilyalar sunar. "
+"Koleksiyonumuz, her zevke uygun kaliteli malzemeler ve modern tasarımlar ile üretilmiştir."
+
+#: core/templates/core/layout.html:100
+msgid "Quick Links"
+msgstr "Hızlı Bağlantılar"
+
+#: core/templates/core/layout.html:121
+msgid "Follow Us"
+msgstr "Bizi Takip Edin"
+
+#: core/templates/core/messages.html:7
+msgid "Messages Received"
+msgstr "Alınan Mesajlar"
+
+#: core/templates/core/messages.html:14
+msgid "Sender Name"
+msgstr "Gönderen Adı"
+
+#: core/templates/core/messages.html:15
+msgid "Email"
+msgstr "E-posta"
+
+#: core/templates/core/messages.html:17
+msgid "Date Received"
+msgstr "Alınma Tarihi"
+
+#: core/templates/core/messages.html:33
+msgid "There is no messages"
+msgstr "Mesaj bulunmamaktadır"
+
+#: core/templates/core/services.html:4
+msgid "TurkmenAli Services"
+msgstr "TurkmenAli Hizmetleri"
+
+#: core/templates/core/services.html:10 core/templates/core/services.html:12
+#: core/templates/core/services.html:89
+msgid "Custom Design"
+msgstr "Özel Tasarım"
+
+#: core/templates/core/services.html:13
+msgid ""
+"Experience the art of personalizing your space with our custom furniture "
+"design services. Whether it’s a unique sofa or an elegant dining set, we "
+"bring your vision to life with precision and creativity."
+msgstr ""
+"Özel mobilya tasarım hizmetlerimizle yaşam alanınızı kişiselleştirme sanatını deneyimleyin. "
+"İster benzersiz bir kanepe ister zarif bir yemek takımı olsun, hayalinizi hassasiyet ve yaratıcılıkla hayata geçiriyoruz."
+
+#: core/templates/core/services.html:20 core/templates/core/services.html:22
+msgid "Quality Materials"
+msgstr "Kaliteli Malzemeler"
+
+#: core/templates/core/services.html:23
+msgid ""
+"We use only the finest materials to craft durable, beautiful furniture that "
+"lasts for generations. From rich hardwoods to premium fabrics, every piece "
+"is built to stand the test of time."
+msgstr ""
+"Uzun yıllar dayanacak sağlam ve şık mobilyalar üretmek için yalnızca en kaliteli malzemeleri kullanıyoruz. "
+"Zengin sert ağaçlardan birinci sınıf kumaşlara kadar her parça, zamana karşı direnmek üzere üretilmiştir."
+
+#: core/templates/core/services.html:30 core/templates/core/services.html:32
+msgid "Delivery & Setup"
+msgstr "Teslimat ve Kurulum"
+
+#: core/templates/core/services.html:33
+msgid ""
+"Our job doesn’t end with the purchase. We offer reliable delivery and setup "
+"services, ensuring that your furniture arrives safely and is professionally "
+"installed in your home."
+msgstr ""
+"İşimiz satın alma ile bitmiyor. Güvenilir teslimat ve kurulum hizmetleri sunarak, "
+"mobilyalarınızın güvenli bir şekilde teslim edilmesini ve profesyonelce kurulmasını sağlıyoruz."
+
+
+#: core/templates/core/services.html:42
+msgid "What Our Customers Say"
+msgstr "Müşterilerimiz Ne Diyor"
+
+#: core/templates/core/services.html:43
+msgid ""
+"Our satisfied customers speak for us. Here’s what they have to say about "
+"their experience with TurkmenAli Furniture:"
+msgstr ""
+"Memnun müşterilerimiz bizim için konuşuyor. İşte TurkmenAli Mobilya ile yaşadıkları deneyim hakkında söyledikleri:"
+
+#: core/templates/core/services.html:47
+msgid ""
+"“The custom design service was amazing! They truly understood my needs and "
+"created a piece that perfectly fits my living room.”"
+msgstr ""
+"“Özel tasarım hizmeti harikaydı! İhtiyaçlarımı gerçekten anladılar ve oturma odam için mükemmel uyum sağlayan bir parça yarattılar.”"
+
+#: core/templates/core/services.html:48
+msgid "Sarah L., Homeowner"
+msgstr "Sarah L., Ev Sahibi"
+
+#: core/templates/core/services.html:53
+msgid ""
+"“The quality of the furniture is second to none. I can tell that only the "
+"best materials were used in crafting my pieces.”"
+msgstr ""
+"“Mobilyaların kalitesi tartışmasız en iyisi. Parçalarımın yapımında yalnızca en kaliteli malzemelerin kullanıldığını hissedebiliyorum.”"
+
+#: core/templates/core/services.html:54
+msgid "John D., Business Owner"
+msgstr "John D., İşletme Sahibi"
+
+#: core/templates/core/services.html:59
+msgid ""
+"“I was impressed with the professional delivery and setup. The team took "
+"great care in placing the furniture just as I envisioned.”"
+msgstr ""
+"“Profesyonel teslimat ve kurulumdan etkilendim. Ekip, mobilyaları tam hayal ettiğim gibi yerleştirmek için büyük özen gösterdi.”"
+
+#: core/templates/core/services.html:60
+msgid "Maya P., Interior Designer"
+msgstr "Maya P., İç Mimar"
+
+#: core/templates/core/services.html:68
+msgid "Our Work in Action"
+msgstr "Yaptığımız İşlerin Aksiyon Hali"
+
+#: core/templates/core/services.html:69
+msgid ""
+"Explore some of the amazing work we’ve done through these videos showcasing "
+"our craftsmanship and attention to detail."
+msgstr ""
+"Zanaatımızı ve ayrıntılara verdiğimiz önemi sergileyen bu videolarla yaptığımız harika işleri keşfedin."
+
+#: core/templates/core/services.html:76
+msgid "Your browser does not support the video tag."
+msgstr "Tarayıcınız video etiketini desteklemiyor."
+
+#: core/templates/core/services.html:104
+msgid "Selected Image"
+msgstr "Seçilen Görsel"
+
+#: core/templates/core/success.html:66
+msgid "Success!"
+msgstr "Başarı!"
+
+#: core/templates/core/success.html:67
+msgid "Your operation was completed successfully."
+msgstr "İşleminiz başarıyla tamamlandı."
+
+#: core/templates/core/success.html:68
+msgid "Go Back to Home"
+msgstr "Ana Sayfaya Dön"
+

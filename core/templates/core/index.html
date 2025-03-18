@@ -1,40 +1,39 @@
 {% extends "core/layout.html" %}
 {% load static %}
 {% load i18n %}
-{% block title %}TurkmenAli{% endblock %}
+{% block title %}{% translate "TurkmenAli" %}{% endblock %}
 {% block body %}
-<!-- Featured Furniture Section -->
 <section class="py-5" style="background-color: #FFFDD0;">
     <div class="container">
-        <h2 class="text-center mb-4" style="font-family: 'Libre Baskerville', serif;">Featured Furniture</h2>
+        <h2 class="text-center mb-4" style="font-family: 'Libre Baskerville', serif;">{% translate "Featured Furniture" %}</h2>
         <div class="row">
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
-                    <img src="{% static 'core/images/sofa.png' %}" class="card-img-top" alt="Elegant Sofa">
+                    <img src="{% static 'core/images/sofa.png' %}" class="card-img-top" alt="{% translate 'Elegant Sofa' %}">
                     <div class="card-body">
-                        <h5 class="card-title">{% translate 'Elegant Sofa'%}</h5>
-                        <p class="card-text">Experience ultimate comfort with our premium-quality sofa, designed for modern living spaces.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <h5 class="card-title">{% translate 'Elegant Sofa' %}</h5>
+                        <p class="card-text">{% translate "Experience ultimate comfort with our premium-quality sofa, designed for modern living spaces." %}</p>
+                        <a href="#" class="btn btn-primary">{% translate "Learn More" %}</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
-                    <img src="{% static 'core/images/table.png' %}" class="card-img-top" alt="Classic Dining Table">
+                    <img src="{% static 'core/images/table.png' %}" class="card-img-top" alt="{% translate 'Classic Dining Table' %}">
                     <div class="card-body">
-                        <h5 class="card-title">Classic Dining Table</h5>
-                        <p class="card-text">Add elegance to your dining room with our beautifully crafted wooden dining table.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <h5 class="card-title">{% translate 'Classic Dining Table' %}</h5>
+                        <p class="card-text">{% translate "Add elegance to your dining room with our beautifully crafted wooden dining table." %}</p>
+                        <a href="#" class="btn btn-primary">{% translate "Learn More" %}</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
-                    <img src="{% static 'core/images/chair.png' %}" class="card-img-top" alt="Luxury Chair">
+                    <img src="{% static 'core/images/chair.png' %}" class="card-img-top" alt="{% translate 'Luxury Chair' %}">
                     <div class="card-body">
-                        <h5 class="card-title">Luxury Chair</h5>
-                        <p class="card-text">Relax in style with our ergonomic and visually stunning luxury chairs.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <h5 class="card-title">{% translate 'Luxury Chair' %}</h5>
+                        <p class="card-text">{% translate "Relax in style with our ergonomic and visually stunning luxury chairs." %}</p>
+                        <a href="#" class="btn btn-primary">{% translate "Learn More" %}</a>
                     </div>
                 </div>
             </div>
@@ -42,25 +41,24 @@
     </div>
 </section>
 
-<!-- Why Choose Us Section -->
 <section class="py-5" style="background-color: #F8F8F0;">
     <div class="container">
-        <h2 class="text-center mb-4" style="font-family: 'Libre Baskerville', serif;">Why Choose TurkmenAli Furniture?</h2>
+        <h2 class="text-center mb-4" style="font-family: 'Libre Baskerville', serif;">{% translate "Why Choose TurkmenAli Furniture?" %}</h2>
         <div class="row">
             <div class="col-md-4 text-center">
-                <img src="{% static 'core/images/whyus1.webp' %}" alt="Quality" class="mb-3" style="width: 80px;">
-                <h5>Premium Quality</h5>
-                <p>All our furniture is crafted with the finest materials, ensuring durability and comfort.</p>
+                <img src="{% static 'core/images/whyus1.webp' %}" alt="{% translate 'Quality' %}" class="mb-3" style="width: 80px;">
+                <h5>{% translate "Premium Quality" %}</h5>
+                <p>{% translate "All our furniture is crafted with the finest materials, ensuring durability and comfort." %}</p>
             </div>
             <div class="col-md-4 text-center">
-                <img src="{% static 'core/images/whyus2.webp' %}" alt="Design" class="mb-3" style="width: 80px;">
-                <h5>Elegant Design</h5>
-                <p>Our designs are timeless, blending seamlessly into any interior décor.</p>
+                <img src="{% static 'core/images/whyus2.webp' %}" alt="{% translate 'Design' %}" class="mb-3" style="width: 80px;">
+                <h5>{% translate "Elegant Design" %}</h5>
+                <p>{% translate "Our designs are timeless, blending seamlessly into any interior décor." %}</p>
             </div>
             <div class="col-md-4 text-center">
-                <img src="{% static 'core/images/whyus3.webp' %}" alt="Support" class="mb-3" style="width: 80px;">
-                <h5>Customer Satisfaction</h5>
-                <p>We prioritize our customers, offering exceptional support and satisfaction guarantees.</p>
+                <img src="{% static 'core/images/whyus3.webp' %}" alt="{% translate 'Support' %}" class="mb-3" style="width: 80px;">
+                <h5>{% translate "Customer Satisfaction" %}</h5>
+                <p>{% translate "We prioritize our customers, offering exceptional support and satisfaction guarantees." %}</p>
             </div>
         </div>
     </div>
